@@ -1,0 +1,64 @@
+[12-Apr-2020 23:37:30 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[12-Apr-2020 23:38:46 UTC] PHP Warning:  scandir(/home1/adnanco/.security): failed to open dir: Permission denied in /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php on line 491
+[12-Apr-2020 23:38:46 UTC] PHP Warning:  scandir(): (errno 13): Permission denied in /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php on line 491
+[12-Apr-2020 23:38:46 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php on line 491
+[12-Apr-2020 23:38:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php on line 493
+[12-Apr-2020 23:38:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php:491) in /home1/adnanco/public_html/wp-includes/functions.php on line 6221
+[12-Apr-2020 23:38:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php:491) in /home1/adnanco/public_html/wp-admin/includes/misc.php on line 1259
+[12-Apr-2020 23:38:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/adnanco/public_html/wp-content/plugins/all-in-one-wp-migration-gdrive-extension/class.plugin-modules.php:491) in /home1/adnanco/public_html/wp-admin/admin-header.php on line 9
+[12-Apr-2020 23:40:38 UTC] iteration 1
+[12-Apr-2020 23:40:38 UTC] generating web page list
+[12-Apr-2020 23:40:39 UTC] iteration 2
+[12-Apr-2020 23:40:39 UTC] searching js css files and external resources
+[12-Apr-2020 23:40:42 UTC] iteration 2
+[12-Apr-2020 23:40:42 UTC] searching js css files and external resources
+[12-Apr-2020 23:40:45 UTC] iteration 3
+[12-Apr-2020 23:40:45 UTC] searching mixed content in js and css files
+[12-Apr-2020 23:40:48 UTC] iteration 3
+[12-Apr-2020 23:40:48 UTC] searching mixed content in js and css files
+[12-Apr-2020 23:40:51 UTC] iteration 4
+[12-Apr-2020 23:40:51 UTC] generating file list
+[12-Apr-2020 23:40:54 UTC] iteration 5
+[12-Apr-2020 23:40:54 UTC] checking which posts contain external resources
+[12-Apr-2020 23:40:57 UTC] iteration 6
+[12-Apr-2020 23:40:57 UTC] checking which widgets contain external resources
+[12-Apr-2020 23:41:00 UTC] iteration 7
+[12-Apr-2020 23:41:00 UTC] checking which postmeta tables contain external resources
+[12-Apr-2020 23:41:03 UTC] iteration 8
+[12-Apr-2020 23:41:03 UTC] checking if external resources can load over ssl
+[12-Apr-2020 23:41:06 UTC] iteration 9
+[12-Apr-2020 23:41:06 UTC] checking if external js or css files contain http links
+[12-Apr-2020 23:41:09 UTC] iteration 10
+[12-Apr-2020 23:41:09 UTC] Looking up blocked resources in files
+[12-Apr-2020 23:41:12 UTC] iteration 11
+[12-Apr-2020 23:41:12 UTC] Looking up blocked resources in posts
+[12-Apr-2020 23:41:15 UTC] iteration 12
+[12-Apr-2020 23:41:15 UTC] Looking up blocked resources in postmeta
+[12-Apr-2020 23:41:18 UTC] iteration 13
+[12-Apr-2020 23:41:18 UTC] looking up widgets with blocked resources
+[12-Apr-2020 23:41:21 UTC] iteration 14
+[12-Apr-2020 23:48:50 UTC] WordPress database error Table 'adnanco_brandmakers.wp_learnpress_sessions' doesn't exist for query SELECT session_value FROM wp_learnpress_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, LearnPress->plugin_loaded, LearnPress->init, LearnPress->get_session, LP_Session_Handler::instance, LP_Session_Handler->__construct, LP_Session_Handler->get_session_data, LP_Session_Handler->get_session
+[12-Apr-2020 23:48:52 UTC] WordPress database error Table 'adnanco_brandmakers.wp_learnpress_sessions' doesn't exist for query SELECT session_value FROM wp_learnpress_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, LearnPress->plugin_loaded, LearnPress->init, LearnPress->get_session, LP_Session_Handler::instance, LP_Session_Handler->__construct, LP_Session_Handler->get_session_data, LP_Session_Handler->get_session
+[12-Apr-2020 23:49:29 UTC] WordPress database error Table 'adnanco_brandmakers.wp_woocommerce_sessions' doesn't exist for query SELECT session_value FROM wp_woocommerce_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, wc_load_cart, WooCommerce->initialize_session, WC_Session_Handler->init, WC_Session_Handler->init_session_cookie, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[12-Apr-2020 23:49:29 UTC] WordPress database error Table 'adnanco_brandmakers.wp_wc_webhooks' doesn't exist for query SELECT webhook_id
+				FROM wp_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[12-Apr-2020 23:49:29 UTC] WordPress database error Table 'adnanco_brandmakers.wp_woocommerce_attribute_taxonomies' doesn't exist for query SELECT * FROM wp_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
+[14-Apr-2020 02:15:09 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[14-Apr-2020 07:15:13 UTC] Quiz exists: GSD Test Exam
+[14-Apr-2020 07:15:13 UTC] Import done!
+[14-Apr-2020 02:16:49 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[14-Apr-2020 07:16:53 UTC] Start creating quiz: GSD Test Exam
+[14-Apr-2020 07:16:53 UTC] Created quiz: 7365
+[14-Apr-2020 07:16:53 UTC] Import done!
+[14-Apr-2020 15:09:53 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[14-Apr-2020 20:09:57 UTC] Start creating quiz: GSD Test Exam
+[14-Apr-2020 20:09:57 UTC] Created quiz: 7380
+[14-Apr-2020 20:09:57 UTC] Import done!
