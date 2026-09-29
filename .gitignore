@@ -1,0 +1,26 @@
+# WordPress secrets & environment — never commit these
+wp-config.php
+.env
+
+# Logs
+error_log
+*.log
+debug.log
+wp-content/debug.log
+
+# Uploads & caches (regenerated / user content)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+*.sql
+*.sql.gz
+
+# Backups / installer artifacts
+wp-content/plugins/.installer.txt
+wp-content/plugins/admin_ips.txt
+
+# OS files
+.DS_Store
+Thumbs.db
